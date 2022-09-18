@@ -34,7 +34,7 @@
             margin: 0;
             margin-bottom: 1.375rem;
             padding-right: 173px;
-            font-size: 63px;
+            font-size: 53px;
             line-height: 53px;
         }
 
@@ -49,6 +49,7 @@
         color: v.$cl-neutral-dr-magenta;
         @include m.breakpoints-up(large){
             margin: 0;
+            margin-bottom: 60px;
             padding-right: 145px;
             font-size: 1rem;
             }
@@ -60,6 +61,7 @@
         text-align: center;
         @include m.breakpoints-up(large){
             margin: 0;
+            margin-top: 32px;
             width: 50%;
         }
     

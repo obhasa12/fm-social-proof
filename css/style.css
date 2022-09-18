@@ -20,7 +20,7 @@ body {
   body {
     display: flex;
     flex-flow: row wrap;
-    margin: 6.75rem 118px;
+    margin: 67px 118px;
   }
 }
 
@@ -37,9 +37,16 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-left: 18px;
     padding: 17px 0;
     width: 443px;
     height: 55px;
+  }
+  .rating-format:nth-child(2) {
+    margin-left: 70px;
+  }
+  .rating-format:last-child {
+    margin-left: 140px;
   }
 }
 .rating-format > .rating__image {
@@ -55,6 +62,11 @@ body {
   font-weight: 700;
   color: hsl(300deg, 43%, 22%);
 }
+@media (min-width: 64em) {
+  .rating-format > p {
+    padding-left: 35px;
+  }
+}
 
 .articel-format {
   display: flex;
@@ -64,6 +76,23 @@ body {
   color: hsl(0deg, 0%, 100%);
   background-color: hsl(300deg, 43%, 22%);
   border-radius: 0.625rem;
+}
+@media (min-width: 64em) {
+  .articel-format {
+    margin-right: 27px;
+  }
+  .articel-format:first-child {
+    margin-bottom: 40px;
+  }
+  .articel-format:nth-child(2) {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .articel-format:last-child {
+    margin-top: 40px;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
 }
 .articel-format img {
   margin-right: 20px;
@@ -80,7 +109,7 @@ body {
 }
 .articel-format .article__profil p {
   font-weight: 500;
-  color: hsl(303deg, 10%, 53%);
+  color: rgb(147, 123, 146);
 }
 .articel-format p {
   font-size: 0.9375rem;
@@ -122,7 +151,7 @@ body {
     margin: 0;
     margin-bottom: 1.375rem;
     padding-right: 173px;
-    font-size: 63px;
+    font-size: 53px;
     line-height: 53px;
   }
 }
@@ -132,11 +161,12 @@ body {
   font-size: 1.125rem;
   font-weight: 500;
   line-height: 1.5rem;
-  color: hsl(303deg, 10%, 53%);
+  color: rgb(147, 123, 146);
 }
 @media (min-width: 64em) {
   .header__text p {
     margin: 0;
+    margin-bottom: 60px;
     padding-right: 145px;
     font-size: 1rem;
   }
@@ -149,6 +179,7 @@ body {
 @media (min-width: 64em) {
   .header section {
     margin: 0;
+    margin-top: 32px;
     width: 50%;
   }
 }
@@ -156,15 +187,9 @@ body {
 main {
   margin: 0 1.1875rem;
 }
-
-section {
-  margin-bottom: 3.125rem;
-  text-align: center;
-}
 @media (min-width: 64em) {
-  section {
+  main {
     margin: 0;
-    width: 50%;
   }
 }
 
@@ -172,5 +197,6 @@ section {
   article {
     display: flex;
     flex: 1 1;
+    height: 300px;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -22,7 +22,7 @@ body{
     @include m.breakpoints-up(large){
         display: flex;
         flex-flow: row wrap;
-        margin: 6.75rem 118px;
+        margin: 67px 118px;
     }
 
 }
@@ -40,10 +40,19 @@ body{
         flex-direction: row;
         // justify-content: center;
         align-items: center;
+        margin-left: 18px;
         padding: 17px 0;
         width: 443px;
         height: 55px;
+
+        &:nth-child(2){
+            margin-left: 70px;
+        }
+        &:last-child{
+            margin-left: 140px;
+        }
     }
+
     & > .rating__image{
         letter-spacing: 0.25rem;
         @include m.breakpoints-up(large){
@@ -55,6 +64,9 @@ body{
         font-size: 1.0625rem;
         font-weight: 700;
         color: v.$cl-primary-magenta;
+        @include m.breakpoints-up(large){
+            padding-left: 35px;
+            }
     }
 }
 
@@ -67,6 +79,21 @@ body{
     background-color: v.$cl-primary-magenta;
     border-radius: 0.625rem;
     // border: 2px blue solid;
+    @include m.breakpoints-up(large){
+        margin-right: 27px;
+        &:first-child{
+            margin-bottom: 40px;
+        }
+        &:nth-child(2){
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        &:last-child{
+            margin-top: 40px;
+            margin-right: 0;
+            margin-bottom: 0;
+        }
+    }
 
     & img{
         margin-right: 20px;
