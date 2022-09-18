@@ -1,0 +1,23 @@
+@use 'variables' as v;
+@use 'mixins' as m;
+
+main{
+    margin:0 1.1875rem;
+    }
+
+section{
+    margin-bottom: 3.125rem;
+    text-align: center;
+    @include m.breakpoints-up(large){
+        margin: 0;
+        width: 50%;
+    }
+
+}
+
+article{
+    @include m.breakpoints-up(large){
+        display:flex;
+        flex: 1 1;
+    }
+}

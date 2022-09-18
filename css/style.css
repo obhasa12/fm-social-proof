@@ -1,0 +1,176 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+html, body, h1, h2, h3, p {
+  margin: 0;
+  pading: 0;
+}
+
+body {
+  font-family: "League Spartan", sans-serif;
+  margin: 5.125rem 0;
+}
+@media (min-width: 64em) {
+  body {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 6.75rem 118px;
+  }
+}
+
+.rating-format {
+  margin-bottom: 1.0625rem;
+  padding: 1rem;
+  height: 4.8125rem;
+  line-height: 1.625rem;
+  background-color: hsl(300deg, 24%, 96%);
+  border-radius: 0.625rem;
+}
+@media (min-width: 64em) {
+  .rating-format {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 17px 0;
+    width: 443px;
+    height: 55px;
+  }
+}
+.rating-format > .rating__image {
+  letter-spacing: 0.25rem;
+}
+@media (min-width: 64em) {
+  .rating-format > .rating__image {
+    padding-left: 32px;
+  }
+}
+.rating-format > p {
+  font-size: 1.0625rem;
+  font-weight: 700;
+  color: hsl(300deg, 43%, 22%);
+}
+
+.articel-format {
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 1.0625rem;
+  padding: 2.1875rem 1.875rem;
+  color: hsl(0deg, 0%, 100%);
+  background-color: hsl(300deg, 43%, 22%);
+  border-radius: 0.625rem;
+}
+.articel-format img {
+  margin-right: 20px;
+  margin-bottom: 1.6875rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+.articel-format .article__profil {
+  line-height: 1.3125rem;
+}
+.articel-format h2 {
+  font-size: 1.0625rem;
+}
+.articel-format .article__profil p {
+  font-weight: 500;
+  color: hsl(303deg, 10%, 53%);
+}
+.articel-format p {
+  font-size: 0.9375rem;
+  letter-spacing: 1px;
+  line-height: 1.4375rem;
+  color: hsl(300deg, 24%, 96%);
+}
+
+.header {
+  text-align: center;
+}
+@media (min-width: 64em) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    width: 100%;
+  }
+  .header__text {
+    margin: 0;
+    width: 50%;
+    text-align: left;
+  }
+  .header__section {
+    width: 50%;
+  }
+}
+.header h1 {
+  margin: 0 3.9375rem;
+  margin-bottom: 1.25rem;
+  font-size: 2.4375rem;
+  font-weight: 700;
+  line-height: 1.875rem;
+  letter-spacing: -0.125rem;
+  color: hsl(300deg, 43%, 22%);
+}
+@media (min-width: 64em) {
+  .header h1 {
+    margin: 0;
+    margin-bottom: 1.375rem;
+    padding-right: 173px;
+    font-size: 63px;
+    line-height: 53px;
+  }
+}
+.header__text p {
+  margin: 0 1.1875rem;
+  margin-bottom: 2.1875rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  color: hsl(303deg, 10%, 53%);
+}
+@media (min-width: 64em) {
+  .header__text p {
+    margin: 0;
+    padding-right: 145px;
+    font-size: 1rem;
+  }
+}
+.header section {
+  margin: 0 1.1875rem;
+  margin-bottom: 3.125rem;
+  text-align: center;
+}
+@media (min-width: 64em) {
+  .header section {
+    margin: 0;
+    width: 50%;
+  }
+}
+
+main {
+  margin: 0 1.1875rem;
+}
+
+section {
+  margin-bottom: 3.125rem;
+  text-align: center;
+}
+@media (min-width: 64em) {
+  section {
+    margin: 0;
+    width: 50%;
+  }
+}
+
+@media (min-width: 64em) {
+  article {
+    display: flex;
+    flex: 1 1;
+  }
+}/*# sourceMappingURL=style.css.map */
