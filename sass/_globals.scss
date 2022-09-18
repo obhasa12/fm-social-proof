@@ -22,7 +22,7 @@ body{
     @include m.breakpoints-up(large){
         display: flex;
         flex-flow: row wrap;
-        margin: 67px 118px;
+        margin: 4.1875rem 7.375rem;
     }
 
 }
@@ -40,23 +40,23 @@ body{
         flex-direction: row;
         // justify-content: center;
         align-items: center;
-        margin-left: 18px;
-        padding: 17px 0;
-        width: 443px;
-        height: 55px;
+        margin-left: 1.125rem;
+        padding: 1.0625rem 0;
+        width: 27.6875rem;
+        height: 3.4375rem;
 
         &:nth-child(2){
-            margin-left: 70px;
+            margin-left: 4.375rem;
         }
         &:last-child{
-            margin-left: 140px;
+            margin-left: 8.75rem;
         }
     }
 
     & > .rating__image{
-        letter-spacing: 0.25rem;
+        letter-spacing: 0.015625rem;
         @include m.breakpoints-up(large){
-        padding-left: 32px;
+        padding-left: 2rem;
         }
     }
 
@@ -65,7 +65,7 @@ body{
         font-weight: 700;
         color: v.$cl-primary-magenta;
         @include m.breakpoints-up(large){
-            padding-left: 35px;
+            padding-left: 2.1875rem;
             }
     }
 }
@@ -80,26 +80,26 @@ body{
     border-radius: 0.625rem;
     // border: 2px blue solid;
     @include m.breakpoints-up(large){
-        margin-right: 27px;
+        margin-right: 1.6875rem;
         &:first-child{
-            margin-bottom: 40px;
+            margin-bottom: 2.5rem;
         }
         &:nth-child(2){
-            margin-top: 20px;
-            margin-bottom: 20px;
+            margin-top: 1.25rem;
+            margin-bottom: 1.25rem;
         }
         &:last-child{
-            margin-top: 40px;
+            margin-top: 2.5rem;
             margin-right: 0;
             margin-bottom: 0;
         }
     }
 
     & img{
-        margin-right: 20px;
+        margin-right: 1.25rem;
         margin-bottom: 1.6875rem;
-        width: 40px;
-        height: 40px;
+        width: 2.5rem;
+        height: 2.5rem;
         border-radius: 100%;
     }
 
@@ -119,7 +119,7 @@ body{
 
     & p{
         font-size: 0.9375rem;
-        letter-spacing: 1px;
+        letter-spacing: 0.0625rem;
         line-height: 1.4375rem;
         color: v.$cl-neutral-lt-magenta;
     }

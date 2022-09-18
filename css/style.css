@@ -20,7 +20,7 @@ body {
   body {
     display: flex;
     flex-flow: row wrap;
-    margin: 67px 118px;
+    margin: 4.1875rem 7.375rem;
   }
 }
 
@@ -37,24 +37,24 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 18px;
-    padding: 17px 0;
-    width: 443px;
-    height: 55px;
+    margin-left: 1.125rem;
+    padding: 1.0625rem 0;
+    width: 27.6875rem;
+    height: 3.4375rem;
   }
   .rating-format:nth-child(2) {
-    margin-left: 70px;
+    margin-left: 4.375rem;
   }
   .rating-format:last-child {
-    margin-left: 140px;
+    margin-left: 8.75rem;
   }
 }
 .rating-format > .rating__image {
-  letter-spacing: 0.25rem;
+  letter-spacing: 0.015625rem;
 }
 @media (min-width: 64em) {
   .rating-format > .rating__image {
-    padding-left: 32px;
+    padding-left: 2rem;
   }
 }
 .rating-format > p {
@@ -64,7 +64,7 @@ body {
 }
 @media (min-width: 64em) {
   .rating-format > p {
-    padding-left: 35px;
+    padding-left: 2.1875rem;
   }
 }
 
@@ -79,26 +79,26 @@ body {
 }
 @media (min-width: 64em) {
   .articel-format {
-    margin-right: 27px;
+    margin-right: 1.6875rem;
   }
   .articel-format:first-child {
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
   }
   .articel-format:nth-child(2) {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
   }
   .articel-format:last-child {
-    margin-top: 40px;
+    margin-top: 2.5rem;
     margin-right: 0;
     margin-bottom: 0;
   }
 }
 .articel-format img {
-  margin-right: 20px;
+  margin-right: 1.25rem;
   margin-bottom: 1.6875rem;
-  width: 40px;
-  height: 40px;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 100%;
 }
 .articel-format .article__profil {
@@ -113,7 +113,7 @@ body {
 }
 .articel-format p {
   font-size: 0.9375rem;
-  letter-spacing: 1px;
+  letter-spacing: 0.0625rem;
   line-height: 1.4375rem;
   color: hsl(300deg, 24%, 96%);
 }
@@ -150,9 +150,9 @@ body {
   .header h1 {
     margin: 0;
     margin-bottom: 1.375rem;
-    padding-right: 173px;
-    font-size: 53px;
-    line-height: 53px;
+    padding-right: 10.8125rem;
+    font-size: 3.3125rem;
+    line-height: 3.3125rem;
   }
 }
 .header__text p {
@@ -166,8 +166,8 @@ body {
 @media (min-width: 64em) {
   .header__text p {
     margin: 0;
-    margin-bottom: 60px;
-    padding-right: 145px;
+    margin-bottom: 3.75rem;
+    padding-right: 9.0625rem;
     font-size: 1rem;
   }
 }
@@ -179,7 +179,7 @@ body {
 @media (min-width: 64em) {
   .header section {
     margin: 0;
-    margin-top: 32px;
+    margin-top: 2rem;
     width: 50%;
   }
 }
@@ -197,6 +197,6 @@ main {
   article {
     display: flex;
     flex: 1 1;
-    height: 300px;
+    height: 18.75rem;
   }
 }/*# sourceMappingURL=style.css.map */
